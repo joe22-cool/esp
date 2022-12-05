@@ -12,7 +12,7 @@
 
             local function onPlayerAdded(player, Player)
                 local highlight = Instance.new("Highlight")
-                highlight.FillColor = Color3.fromRGB(75,0,130)
+                highlight.FillColor = Color3.fromRGB(160, 32, 240)
                 highlight.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
                 highlight.RobloxLocked = true
                 ESPs[player] = highlight
